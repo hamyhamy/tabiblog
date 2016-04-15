@@ -1,0 +1,73 @@
+@media ( max-width:780px )
+{
+
+	img.logo{
+		width: 150px;
+		height: 70px;
+		padding-left:100px;
+	}
+
+	ul#navi {
+	  width:320px;
+		height:25px;
+	  padding-left:0px;
+
+	}
+
+	li.menu {
+		float:left;			/*リスト項目を横に並べる*/
+		display:inline;			/*リスト項目をインライン表示にする*/
+		list-style-type:none;		/*リストマーカー無しにする*/
+		background-repeat:no-repeat; 	/*背景画像を繰り返さない*/
+		margin: 0 6%;
+		width:12%;
+	  height:21px;
+
+	}
+
+
+
+
+
+	div#main {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+
+	div#content {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	div#left {
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+
+	div#right {
+		float: none;
+		display: none;
+	}
+
+	.photo {
+		height:80%;
+		width: 90%;
+	}
+	.trimming{
+		width: 100%;
+	}
+
+	.post{
+		width: 100%;
+	}
+
+	.comment{
+		line-height: 1.5;
+	width: 100%;
+	padding:5px;
+	}
+
+
+}
