@@ -2,10 +2,8 @@
 /* header ここから */
 
 header {
-	background-color: rgba(147, 149, 151, 0.35);
-  height: 140px;
+  height: 150px;
   width: 100%;
-	border-bottom: 3px solid white;
 }
 
 .header_content{
@@ -16,10 +14,10 @@ header {
 }
 
 img.logo{
-	width: 240px;
-	height: 100px;
+	width: 180px;
+	height: 70px;
 	position: absolute;
-	top: 30px;
+	top: 18px;
 	left: 20px;
 }
 
@@ -35,26 +33,11 @@ a:hover{
 	filter:alpha(opacity=70);
 }
 
-.selected_1 {
-	border-bottom: solid 5px #99cc99;
-}
-.selected_2{
-	border-bottom: solid 5px #4682B4;
-}
-.selected_3{
-	border-bottom: solid 5px #ff69b4;
-}
-.selected_4{
-	border-bottom: solid 5px #4B0082;
-}
-
-
 ul#navi {
 	width: 600px;
 	height:28px;
-  font-weight:bold;
   position: absolute;
-	top: 87px;
+	top: 51px;
 	left: 320px;
 }
 
@@ -65,8 +48,7 @@ li.menu {
 	background-repeat:no-repeat; 	/*背景画像を繰り返さない*/
 	margin: 0 6%;
 	width:12%;
-  height:21px;
-
+  height:30px;
 }
 
 ul#navi a {
@@ -77,7 +59,28 @@ ul#navi a {
 	padding-right: 10px;
 	text-align:center;
 	text-decoration:none; 			/*リンクの下線を無くす*/
-	font-family: Helvetica serif;	/*フォントの種類*/
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
+  font-family: "Calibri-Light";
+}
+
+
+.blogList{
+  position:absolute;
+  width:150px;
+  background:#939597; opacity 0.7;
+  top:30px;
+  display:none;
+  border-radius: 5px;
+}
+
+head.blogList a{
+color:#404040;
+padding:10px 15px;
+display:block;
+}
+
+.menu:hover ul {
+  display:block;
+
 }
